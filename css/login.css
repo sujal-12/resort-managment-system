@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px;
+    cursor: pointer;
+    background:transparent;
+    border: 0;
+    outline: none;
+    position: relative;   
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width:110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width:280px;
+    transition: 0.5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#log{
+    left: 50px;
+    
+}
+#sign{
+    left: 450px;
+    
+}
+
+.container{
+    position: absolute;
+    top:5%;
+    left: 38%;
+    width: 30%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+}
+
+.form {
+    padding-left:20px ;
+    margin-top: 0;
+    
+}
+
+.form label{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+.form-control{
+outline: none;
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom:1px solid black ;
+border-radius: 0px;
+background: transparent;
+}
+
+
+.help-block{
+    padding-right: 20px;
+    font-size: 0.6rem;
+}
+
+.radio-inline{
+    padding-left: 8px;
+}
+
+.signup-btn{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    background-color: #494848;
+    border: 1px solid grey;
+    
+}
+
+.signup-btn:hover{
+    background-color: #383838;
+}
+
+.login_add{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+
+/* Bookingg slotttt */
+
+.container2{
+    position: absolute;
+    top:10%;
+    left: 30%;
+    height: 80vh;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+}
+
+.container2 h4{
+    align-items: center;
+}
+
+.slot_head{
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.slotshowing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.fa-calendar{
+    margin-top: 11px;
+    margin-left: 50px;
+}
+
+
+.signup_add{
+    padding-left: 50px;
+    padding-top: 10px;
+}
